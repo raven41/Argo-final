@@ -4,6 +4,8 @@ body {
   /*Saads slut*/
   /*Lukas start*/
   /*Lukas slut*/
+  /*Osman start*/
+  /*Osman slut*/
 }
 
 body .container-bodytext .bodytext {
@@ -36,6 +38,23 @@ body .card-body .text-white {
 body .btn {
   font-family: 'Lucida Sans Unicode';
   font-weight: 700;
+}
+
+body .body-text-osman {
+  padding: 0px 1em 0px 1em;
+  vertical-align: middle;
+  color: white;
+  font-family: 'Lucida Sans Unicode';
+}
+
+body .body-text-list li {
+  padding-left: 3em;
+  color: white;
+}
+
+body .osman-h5 {
+  color: white;
+  padding-left: 0.8em;
 }
 
 @media (min-width: 414px) {
@@ -163,6 +182,17 @@ body .btn {
     border: 3px solid #FC5E54;
   }
   /*Lukas slut*/
+  /*Osman start*/
+  #overlay-osman {
+    background: rgba(0, 0, 0, 0.5);
+    padding-bottom: 1em;
+    margin: 13% auto;
+    border-radius: 29px;
+  }
+  .img-main {
+    max-width: 30%;
+  }
+  /*Osman slut*/
 }
 
 @media (min-width: 768px) {
@@ -187,6 +217,11 @@ body .btn {
     font-size: 1.5em;
   }
   /*Saad slut*/
+  /*Osman start*/
+  .img-main {
+    max-width: 25%;
+  }
+  /*Osman slut*/
 }
 
 @media (min-width: 1024px) {
@@ -223,6 +258,17 @@ body .btn {
     margin-bottom: 3%;
     font-size: 3em;
   }
+  /*Osman start*/
+  .img-main {
+    max-width: 15%;
+  }
+  /*Osman slut*/
+}
+
+@media (min-width: 1200px) {
+  .img-main {
+    max-width: 12%;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -238,5 +284,10 @@ body .btn {
     margin-top: 0%;
     margin-bottom: 0%;
   }
+  /*Osman start*/
+  .img-main {
+    max-width: 10%;
+  }
+  /*osman slut*/
 }
 /*# sourceMappingURL=style.css.map */
