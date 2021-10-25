@@ -1,0 +1,145 @@
+body {
+  background-image: url("img/plastics-framcentre.jpg");
+}
+
+body .container-bodytext .bodytext {
+  font-family: Lucida Sans Unicode;
+  color: white;
+}
+
+body .container-button .subtitle {
+  display: block;
+  text-align: center;
+  color: white;
+  font-family: Myanmar Text;
+  font-size: 1.1em;
+  text-decoration: underline;
+}
+
+@media (min-width: 414px) {
+  nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 0px;
+  }
+  nav .container-fluid {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  nav .img-logo {
+    margin-left: .5rem;
+  }
+  nav .nav-link {
+    font-family: Myanmar Text;
+    font-weight: bold;
+    font-size: 1.7em;
+    padding: .3rem .3rem;
+    color: #0F1A4A;
+  }
+  nav .kontakt {
+    padding-right: .6rem;
+  }
+  .container-bodytext {
+    display: none;
+  }
+  .container-bodytext .bodytext {
+    display: none;
+  }
+  .container-button {
+    margin: 50% auto;
+  }
+  .container-button #background-color {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 7% 0% 9% 0%;
+    border-radius: 29px;
+  }
+  .container-button .header-1 {
+    margin-bottom: 10%;
+    font-size: 3em;
+  }
+  .container-button .subtitle {
+    display: none;
+  }
+  .container-button .p-white {
+    font-family: Myanmar Text;
+    font-weight: bold;
+    color: white;
+  }
+  .container-button .p-green {
+    font-family: Segoe Print;
+    color: #65FC54;
+  }
+  .container-button .btn-primary, .container-button .btn-secondary {
+    background-color: #FC5E54;
+    border: 0px solid #FC5E54;
+    border-radius: 25px;
+    font-family: Lucida Sans Unicode;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-button {
+    margin: 15% auto;
+    padding: 7% 10% 9% 10%;
+  }
+  .container-button #background-color {
+    padding: 7% 10% 9% 10%;
+  }
+  .container-button .subtitle {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 29px;
+    margin: 18% auto;
+  }
+  .container-bodytext {
+    display: block;
+  }
+  .container-bodytext .bodytext {
+    display: block;
+    padding: 20px 0px 10px 10px;
+  }
+  .container-button {
+    margin: 0% auto;
+    padding: 0% 0% 0% 0%;
+  }
+  .container-button #background-color {
+    padding: 10% 0% 9% 0%;
+    background: rgba(0, 0, 0, 0);
+    margin-top: 5%;
+    margin-bottom: 0%;
+  }
+  .container-button .header-1 {
+    margin-bottom: 3%;
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container-overlay {
+    margin: 12% auto;
+  }
+  .container-button {
+    margin: 0% auto;
+    padding: 0% 0% 0% 0%;
+  }
+  .container-button #background-color {
+    padding: 5% 0% 9% 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
