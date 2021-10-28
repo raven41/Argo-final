@@ -18,7 +18,7 @@ body .container-button .subtitle {
   text-align: center;
   color: white;
   font-family: Myanmar Text;
-  font-size: 1.1em;
+  font-size: 1em;
   text-decoration: underline;
 }
 
@@ -115,7 +115,7 @@ body .osman-h5 {
     border-radius: 25px;
     font-family: Lucida Sans Unicode;
     padding: 15px;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-weight: bold;
   }
   .container-button .btn-primary a, .container-button .btn-secondary a {
