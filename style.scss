@@ -59,6 +59,174 @@ body {
       /*Osman slut*/
 }
 
+@media (min-width: 375px) {
+
+  nav {
+    background-color:rgba(255, 255, 255, 0.5);
+    padding-bottom: 0px;
+
+      .container-fluid {
+        padding-left: .5rem;
+        padding-right: .5rem;
+      }
+
+      .img-logo {
+        margin-left: .5rem;
+      }
+
+      .nav-link {
+        font-family: Myanmar Text;
+        font-weight: bold;
+        font-size: 1.2em;
+        padding: .3rem .3rem;
+        color: #0F1A4A;
+      }
+
+      .kontakt {
+        padding-right: .6rem;
+      }
+
+  }
+
+  .container-bodytext{
+    display: none;
+
+    .bodytext {
+      display: none;
+    }
+  }
+
+  .container-button {
+    margin: 42% auto;
+
+    #background-color {
+      background: rgba(#000000, 0.5);
+      padding: 7% 0% 9% 0%;
+      border-radius: 29px;
+    }
+
+    .header-1 {
+      margin-bottom: 10%;
+      font-size: 3em;
+    }
+
+    .subtitle {
+      display: none;
+    }
+
+    .p-white {
+      font-family: Myanmar Text;
+      font-weight: bold;
+      color: white;
+    }
+
+    .p-green {
+      font-family: Segoe Print;
+      color: #65FC54
+    }
+
+    .btn-primary, .btn-secondary {
+      background-color: #FC5E54;
+      border: 0px solid #FC5E54;
+      border-radius: 25px;
+      font-family: Lucida Sans Unicode;
+      padding: 15px;
+      font-size: 1.7rem;
+      font-weight: bold;
+
+      a {
+        text-decoration: none;
+        color: #22232A;
+      }
+    }
+  }
+
+  /*Saad start*/
+  .omos{                
+    border-radius: 29px;
+    background-color:rgba(0,0,0,0.5);;
+    padding: 7% 0% 7% 0%;
+    margin: 10% auto;
+
+    .overskrift-h1{
+      color:white; 
+      text-align: center;
+      margin-bottom: 7%;
+      font-weight: bold;
+    }
+
+    .bodytext-saad {
+      padding: 0em 1.5em;
+    }
+
+    h5 {
+      padding: 0em .5em;
+      font-weight: bold;
+      font-family: myanmar Text;
+    }
+  }
+  /*Saad slut*/
+
+  /*Lukas start*/
+  #overlay-plastik{
+    background: rgba( #000000, 0.5 );
+    border-radius: 29px;
+    margin: 40% auto;
+    padding: 0% 10% 10% 10%;
+
+    .lukas-h1 {
+      margin-top: 1em;
+      color: white;
+      text-align: center;
+    }
+    
+    .btn-success{
+      background-color: #65FC54;
+    }
+
+    .btn-warning{
+      background-color: #fcf154;
+    }
+
+    .btn-danger{
+      background-color: #FC5E54;
+    }
+
+    .img-thumbnail{
+      margin-bottom: 1em;
+      width: 7em;
+      height: 7em;
+      object-fit: cover;
+    }
+
+    .green-border{
+      border: 3px solid #65FC54;
+    }
+
+    .yellow-border{
+      border: 3px solid #fcf154;
+    }
+
+    .red-border{
+      border: 3px solid #FC5E54;
+    }
+  }
+  /*Lukas slut*/
+
+  /*Osman start*/
+  #overlay-osman {
+    background: rgba(#000000, 0.5);
+    padding-bottom: 1em;
+    margin: 13% auto;
+    border-radius: 29px;   
+  }
+  
+  .img-main {
+  max-width: 30%;
+  }
+  /*Osman slut*/
+}
+
 @media (min-width: 414px) {
 
   nav {
@@ -169,10 +337,8 @@ body {
 
   /*Lukas start*/
   #overlay-plastik{
-    background: rgba( #000000, 0.5 );
-    border-radius: 29px;
-    margin: 35% auto;
-    padding-bottom: 2.7em;
+    padding: 0% 15% 5% 15%;
+    margin: 22% auto;
 
     .lukas-h1 {
       margin-top: 1em;
@@ -303,6 +469,12 @@ body {
     max-width: 15%;
   }
   /*Osman slut*/
+
+  /*Lukas start*/
+  #overlay-plastik{
+    margin: 15% auto;
+  /*Lukas slut*/
+  }
 }
 
 @media (min-width: 1200px) {
@@ -332,4 +504,10 @@ body {
   max-width: 10%;
   }
 /*osman slut*/
+
+  /*Lukas start*/
+  #overlay-plastik{
+    margin: 11% auto;
+  /*Lukas slut*/
+  }
 }
